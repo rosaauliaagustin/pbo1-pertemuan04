@@ -11,7 +11,7 @@ public class TugasPerulangan {
         int angka = input.nextInt();
 
         for (int i = 1; i <= 10; ++i)
-            System.out.println (i+". Hasil dari Pengurangan "+i+" + "+angka+" = "+(i-angka));
-        
+            System.out.println (i+". Hasil dari Pengurangan "+i+" - "+angka+" = "+(i-angka));
+
     }
 }
