@@ -11,8 +11,9 @@ public class TugasArray {
         Scanner scan = new Scanner(System.in);
 
         // mengisi data ke array
-        for (int i = 0; i < nama.length; i++){
+        for (int i = 0; i < nama.length; i++) {
             System.out.print("Nama Buah " + i + ":");
             nama[i] = scan.nextLine();
+        }
     }
 }
